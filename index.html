@@ -7,6 +7,56 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <main>
+        <div class="marcador">
+            <p>
+                <span id="nombre-usuario">Player    </span> VS <span id="nombre-pc">    Computer</span> <br>
+                <span id="puntuacion-usuario">0</span> : <span id="puntuacion-pc">0</span>
+            </p>
+        </div>
+        <div id="instrucciones-totales">
+            <h2>instructions:</h2>
+            <p class="instrucciones">
+                1.- you play against the computer.
+            </p>
+            <p class="instrucciones">
+                2.- choose one of the three options: rock, paper or scissors.
+            </p>
+            <p class="instrucciones">
+                3.- the computer will randomly choose one of the three options.
+            </p>
+            <p class="instrucciones">
+                4.- who wins? <br>
+                ----rock crushes scissors <br>
+                ----paper wraps stone <br>
+                ----scissors cut paper <br>
+            </p>
+            <p class="instrucciones">
+                5.- if both choose the same thing, it's a tie.
+            </p>
+        </div>
+
+        <h2 class="subtitulo-botones">choose your weapon:</h2>
+        <div class="botones">
+            <button id="btn-piedra" class="btn">
+                <img src="assets/images/rock.webp" alt="rock image">
+            </button>
+            <button id="btn-papel" class="btn">
+                <img src="assets/images/paper.png" alt="paper image">
+            </button>
+            <button id="btn-tijera" class="btn">
+                <img src="assets/images/scissors.png" alt="scissors image">
+            </button>
+        </div>
+        <button id="boton-reiniciar-juego">Restart Game</button>
+    </main>
+    <footer>Rock Paper Scissors</footer>
+
     <script src="js/app.js"></script>
 </body>
 </html>
