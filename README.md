@@ -10,9 +10,7 @@ Un juego clásico de "Piedra, Papel o Tijeras" desarrollado con HTML, CSS y Java
 - [Instalación y Ejecución](#instalación-y-ejecución)
 - [Cómo Jugar](#cómo-jugar)
 - [Características](#características)
-- [Mejoras Futuras](#mejoras-futuras)
-- [Créditos](#créditos)
-- [Licencia](#licencia)
+
 
 ## Descripción
 
